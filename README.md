@@ -1,1 +1,2 @@
 # Dr.-King-s-Website-3
+My client, Dr. Michael King, and I, the coder, worked together to make a website for his dental office. The goal was to have a warm welcoming page with valuable information for patients looking for a dental home. Color palette was picked from Dr. King’s business card. The website is nothing technical or hard to make, the client wanted just a simple website to put across information such as contact information and services available.  
