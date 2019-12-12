@@ -1,0 +1,262 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+body {
+  background: #f5f5f5;
+   background-image: url("https://photos.smugmug.com/JCS-High-School/NewberryMathTechnology/19-20-Coding/King/i-7nccGxq/0/bcff9cb2/L/mikees%20dental%20office%20%2813%29-L.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #C18F4A;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #000100;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#975C28 ;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #C18F4A;
+  color: #000100;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+  background-color: #2196F3;
+  padding: 0px;
+}
+
+.grid-item {
+  background-color: #434343;
+  border: .1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: #FFFFFE;
+}
+
+h2{
+  font-size: 30px;
+}
+
+h3{
+   font-size: 60px;
+}
+
+.home-par{
+  background-color: #434343;
+  color: #FFFFFE;
+  padding: 4px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+}
+
+.Home-pic{
+  margin-top: 3.75px;
+   border: 5px solid rgba(0, 0, 0, 0.8);
+   
+}
+
+.meet-the-doctor{
+  font-size: 70px;
+  
+}
+
+.Staff-overall-par{
+  background-color: #434343;
+  color: #FFFFFE;
+  padding: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+}
+
+.Dr-King-Bio{
+  background-color: #434343;
+  color: #FFFFFE;
+  padding: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+}
+
+.Staff-pics-and-names{
+  background-color: #434343;
+  color: #FFFFFE;
+  padding: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+}
+
+.par-holding-office-pics{
+   background-color: #434343;
+  color: #FFFFFE;
+  padding: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+}
+
+.treatments-first-par{
+  background-color: #434343;
+  color: #FFFFFE;
+  padding: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+}
+
+.list-of-treatments{
+   background-color: #434343;
+  color: #FFFFFE;
+  padding: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+}
+
+.cosmetics-first-par{
+   background-color: #434343;
+  color: #FFFFFE;
+  padding: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+}
+
+.list-of-cosmetics{
+   background-color: #434343;
+  color: #FFFFFE;
+  padding: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+
+.appointment-first-par{
+  background-color: #434343;
+  color: #FFFFFE;
+  padding: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+}
+
+.form{
+  margin-bottom: 10px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #C18F4A;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #975C28;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.oral-health{
+  background-color: #434343;
+  color: #FFFFFE;
+  padding: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+}
+
+footer{
+  background-color: #CF9938;
+  text-align: center;
+}
+
+.Footer-Logo{
+  margin-top: 40px;
+}
+
+.Office-Hours{
+  margin-left:40px ;
+}
+
+.Bottom-of-footer{
+  color: #434343;
+  float: right;
+  margin-right: 30px;
+}
